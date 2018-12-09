@@ -1,0 +1,21 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=3
+
+[application]
+
+config/name="New Game Project"
+run/main_scene="res://main.tscn"
+config/icon="res://icon.png"
+
+[rendering]
+
+quality/shadow_atlas/size=8192
+environment/default_clear_color=Color( 0.121569, 0.145098, 0.192157, 1 )
+environment/default_environment="res://default_env.tres"
